@@ -1,0 +1,81 @@
+/* Large desktop */
+@media (min-width: 1200px) {
+    .custom-navbar-media {
+        display: none;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .custom-navbar-media {
+        display: none;
+    }
+
+    .custom-container1 {
+        background-image: url("../images/pic1.png");
+    }
+
+    .custom-text {
+        margin-top: 50px;
+        line-height: normal;
+    }
+
+    .custom-container2 {
+        background-image: url("../images/pic22.png");
+    }
+
+    .gallery {
+        padding-top: 1px;
+    }
+
+    .images-group > img:nth-child(2) {
+        width: 55%;
+        padding-left: 0px;
+    }
+
+    .images-group > img:nth-child(1) {
+        width: 55%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 450px) {
+    .images-group {
+        display: none;
+    }
+
+    .custom-title {
+        font-size: 32px;
+        line-height: normal;
+    }
+
+    .custom-text {
+        margin: 20px;
+        line-height: normal;
+    }
+
+    .custom-container1 {
+        background-image: url("../images/pic1.png");
+    }
+
+    .custom-container1 .custom-title {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .custom-navbar {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+
+    }
+
+    .custom-navbar-media {
+        display: inline-block;
+    }
+
+}
+

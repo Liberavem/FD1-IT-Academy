@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One');
+@import url('https://fonts.googleapis.com/css?family=Gentium Book Basic');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.custom-container1 {
+    background: url(../images/pic1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
+}
+
+
+.custom-navbar {
+    color: #ffffff;
+    font-family: "Gentium Book Basic";
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.custom-navbar-media {
+    display: none;
+
+}
+
+.custom-title {
+    text-shadow: 1px 1px 2px rgba(1, 1, 1, 0.64);
+    color: #ffffff;
+    font-family: "Yeseva One";
+    font-size: 7vw;
+    font-weight: 400;
+    margin-bottom: 100px;
+    margin-top: 85px;
+}
+
+.custom-button-primary {
+    width: 228px;
+    height: 57px;
+    border: 1px solid #000000;
+    background-color: #4e4949;
+    opacity: 0.8;
+    margin-bottom: 60px;
+    width: 230px;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.custom-button-secondary {
+    width: 228px;
+    height: 57px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    opacity: 0.7;
+    margin-bottom: 60px;
+    width: 230px;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.btn-dark {
+    color: #252424;
+}
+
+.custom-container2 {
+    background: url(../images/pic2.png) no-repeat;
+    background-size: cover;
+}
+
+.cook-image {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.custom-container4 {
+    background-image: url('../images/pic3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
+
+
+}
+
+.black-image {
+    height: 269px;
+    border: 1px solid #171716;
+    background-color: #000000;
+    opacity: 0.67;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.custom-container5 {
+    background-image: url('../images/pic4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+.heading {
+    color: #cc9900;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    line-height: normal;
+    padding-left: 15px;
+}
+
+.menu-item > div:nth-child(3) {
+    color: #4c4c4c;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.menu-item > div:nth-child(2) {
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+    /*float: right;*/
+    margin-top: 20px;
+}
+
+.menu-item > div:nth-child(1) {
+    color: #c89f2d;
+    font-family: "Yeseva One";
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+/*.clear {*/
+/*    clear: both;*/
+/*}*/
+.custom-container6 {
+    background-image: url('../images/pic5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
+
+}
+
+.black-image-two {
+    background-image: url("../images/image5.png");
+    /*opacity: 0.67;*/
+    padding: 30px;
+    color: #ffffff;
+}
+
+.black-image-two > div:nth-child(1) {
+    color: #ffffff;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.black-image-two > div:nth-child(2) {
+    color: #dde0df;
+    font-family: "Gentium Book Basic";
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.black-image-two > div:nth-child(3) {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.custom-container7 {
+    background-image: url('../images/pic6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #f0db3f;
+}
+
+.custom-text {
+    color: #4c4c4c;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px;
+}
+
+.custom-button-submit {
+    margin-top: 40px;
+    background-color: #c89f2d;
+    width: 228px;
+    height: 57px;
+    border: 1px solid #000000;
+    opacity: 0.8;
+    margin-bottom: 60px;
+}
+
+.images-group {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.images-group > img:nth-child(2) {
+    width: 45%;
+    padding-left: 20px;
+}
+
+.images-group > img:nth-child(1) {
+    width: 41%;
+}
+
+.futter {
+    background-image: url("../images/futter.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.small-heading {
+    color: #fefefe;
+    font-family: "Yeseva One";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.custom-text-futter {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.decoration {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.custom-container3 {
+    background-image: url('../images/pic4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.menu-image {
+    height: 50%;
+    width: 50%;
+    padding: 20px;
+    cursor: pointer;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    transition-duration: 1s;
+}
+
+.menu-image:hover {
+    transform: scale(1.5);
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.socNet {
+    width: 10%;
+    margin-top: 25px;
+    margin-right: 10px;
+    float: right;
+}
+
+#toTop {
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+    color: #333;
+    font-family: verdana;
+    font-size: 11px;
+}
+
+.fa {
+    font-size: x-large;
+    color: #c89f2d;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.heading-modal {
+    padding-left: 23px;
+}
